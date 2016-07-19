@@ -26,7 +26,7 @@ Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301  USA
 
 NOTE:
     THIS SCRIPT WORKS ONLY WITH PYTHON VERSION 2.
-    FOR PYTHON 3, USE "CREATESWAP.PY".
+    FOR PYTHON 3, USE "createswap.py".
 '''
 
 import sys

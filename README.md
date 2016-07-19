@@ -1,6 +1,6 @@
 CreateSwap
 ==========
-CreateSwap is a Python3 script that manages Linux swap files. 
+CreateSwap is a Python script that manages Linux swap files. 
 You can create and delete swap files very quickly without using makeswap, swapon, ... commands.
 Just specify the file and its size and let everything is done by CreateSwap.
 
@@ -21,13 +21,15 @@ name is necessary.
 
 The **--verbose** option runs the script in the verbose mode which is useful when an error occurred.
 
+NOTE: "python.py" WORKS ONLY WITH PYTHON VERSION 3. FOR PYTHON 2, USE "createswap2.py".
+
 Examples
 ==========
 
 ```
-$ python3 ./createswap.py -f swapfile -s 512
-$ python3 ./createswap.py -f /var/swapfile -s 2048 --verbose
-$ python3 ./createswap.py -o /var/swapfile --verbose
+$ python ./createswap.py -f swapfile -s 512
+$ python ./createswap.py -f /var/swapfile -s 2048 --verbose
+$ python ./createswap.py -o /var/swapfile --verbose
 ```
 
 

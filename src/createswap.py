@@ -2,8 +2,8 @@
 # encoding: utf-8
 '''
 create_swap.py
-A Python script for creating and removing Linux swap files.
-Copyright (C) 2014  Faran Hajin
+A Python 3 script for creating and removing Linux swap files.
+Copyright (C) 2016 Farzan Hajian
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -20,9 +20,13 @@ along with this program; if not, write to the Free Software Foundation,
 Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301  USA
 
 @author:     Farzan Hajian
-@copyright:  2014 . All rights reserved.
+@copyright:  2016. All rights reserved.
 @license:    GPL3
 @contact:    farzan.hajian@gmail.com
+
+NOTE:
+    THIS SCRIPT WORKS ONLY WITH PYTHON VERSION 3.
+    FOR PYTHON 2, USE "createswap2.py".
 '''
 
 import sys
@@ -62,7 +66,7 @@ def is_verbose():
 def print_header():
     os.system('clear')
     print('-'*50)
-    print('createswap.py v 1.0\n')
+    print('createswap.py v 2.0 (Python 3)\n')
     print('This program is published under GPL v3 license')
     print('You can contact me at farzan.hajian@gmail.com')
     print('-'*50)
